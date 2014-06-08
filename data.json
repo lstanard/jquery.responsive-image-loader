@@ -1,0 +1,34 @@
+var dynamicImageData = [
+	{
+		"breakpoint": "1025",
+		"image": "http://www.fillmurray.com/550/700",
+		"target": "#desktop-images .photo-grid",
+		"location": "prepend",
+		"customClass": "large-photo"
+	},
+	{
+		"breakpoint": "1025",
+		"image": "http://www.fillmurray.com/700/550",
+		"target": "#desktop-images .photo-grid",
+		"location": "append",
+		"customClass": "large-photo"
+	},
+	{
+		"breakpoint": "648",
+		"image": "http://www.fillmurray.com/300/400",
+		"target": "#tablet-images .photo-grid",
+		"location": "prepend",
+		"customClass": "",
+		"parent": "<figure>",
+		"altAttr": "This is some alt text"
+	},
+	{
+		"breakpoint": "648",
+		"image": "http://www.fillmurray.com/400/300",
+		"target": "#tablet-images .photo-grid",
+		"location": "append",
+		"customClass": "",
+		"parent": "<figure>",
+		"altAttr": "This is some alt text"
+	}
+];
